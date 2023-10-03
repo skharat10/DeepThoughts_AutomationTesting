@@ -1,0 +1,16 @@
+{
+  "name": "loginscenario",
+  "version": "1.0.0",
+  "description": "Login scenario tests using TestCafe",
+  "main": "test-login.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome tests/test-login.js", 
+    "test:firefox": "testcafe firefox tests/test-login.js"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-async-generator-functions": "^7.22.15",
+    "testcafe": "^3.3.0"
+  }
+}
